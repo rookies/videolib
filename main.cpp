@@ -20,11 +20,11 @@ int main (int argc, char **argv)
 	/*
 	 * Init window & texture:
 	*/
-	window.create(
+	/*window.create(
 		sf::VideoMode(v.get_width(), v.get_height()),
 		"FLOATING"
 	);
-	texture.create(v.get_width(), v.get_height());
+	texture.create(v.get_width(), v.get_height());*/
 	/*
 	 * Get frames:
 	*/

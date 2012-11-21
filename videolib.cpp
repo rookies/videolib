@@ -154,9 +154,10 @@ bool Video::get_vframe(sf::Uint8 *buf)
 	 * Read frame:
 	*/
 	do {
+		if (packet.size > 0)
+			av_free_packet(&packet);
 		if (av_read_frame(m_format_context, &packet) < 0)
 			return false;
-		av_free_packet(&packet);
 	}
 	while (packet.stream_index != m_stream_video);
 	/*
