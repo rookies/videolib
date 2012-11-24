@@ -15,6 +15,7 @@
 #	include <libswscale/swscale.h>
 	}
 #	include <SFML/Graphics.hpp>
+#	include <SFML/Window.hpp>
 
 	class Video
 	{

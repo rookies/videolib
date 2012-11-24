@@ -1,6 +1,3 @@
-/*
- * g++ -o videolib-test -lavcodec -lavformat -lavutil -lswscale -lsfml-window -lsfml-graphics videolib.cpp main.cpp
-*/
 #include "videolib.hpp"
 
 int main (int argc, char **argv)
@@ -20,11 +17,8 @@ int main (int argc, char **argv)
 	/*
 	 * Init window & texture:
 	*/
-	/*window.create(
-		sf::VideoMode(v.get_width(), v.get_height()),
-		"FLOATING"
-	);
-	texture.create(v.get_width(), v.get_height());*/
+	//window.create(sf::VideoMode(v.get_width(), v.get_height(), 24), "FLOATING");
+	//texture.create(v.get_width(), v.get_height());
 	/*
 	 * Get frames:
 	*/
